@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=MuseoModerno:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+/* Styles del sitio */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-black: #161616;
+  --color-white: #e5e5e5;
+  --font-titles: "Cabin", sans-serif;
+  --font-text: "Montserrat", sans-serif;
+  --font-brand: "MuseoModerno", cursive;
+}
+
+.header-styles {
+  background-color: var(--color-black);
+}
+
+ul li {
+  list-style: none;
+}
+.header-list {
+  color: var(--color-white);
+  list-style: none;
+  text-decoration: none;
+  padding-right: 1rem;
+  font-family: var(--font-text);
+}
+
+.hero-img {
+  background-image: url("../img/banner/hero-image2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Estilos del Footer */
+
+footer {
+  background-color: var(--color-black);
+}
+
+footer div ul li a {
+  color: var(--color-white);
+  list-style: none;
+  text-decoration: none;
+  font-family: var(--font-text);
+  font-size: 20px;
+}
+h4 {
+  color: var(--color-white);
+  font-family: var(--font-titles);
+}
+
+.background-gradient {
+  background: -moz-linear-gradient(
+    142.4% 87.19% 165.46deg,
+    rgba(0, 26, 63, 1) 0%,
+    rgba(0, 38, 79, 1) 47.99%,
+    rgba(0, 38, 79, 1) 61.17%,
+    rgba(16, 23, 88, 1) 66.7%,
+    rgba(29, 11, 96, 1) 72.61%,
+    rgba(23, 7, 72, 1) 89.4%,
+    rgba(21, 6, 63, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    165.46deg,
+    rgba(0, 26, 63, 1) 0%,
+    rgba(0, 38, 79, 1) 47.99%,
+    rgba(0, 38, 79, 1) 61.17%,
+    rgba(16, 23, 88, 1) 66.7%,
+    rgba(29, 11, 96, 1) 72.61%,
+    rgba(23, 7, 72, 1) 89.4%,
+    rgba(21, 6, 63, 1) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    142.4% 87.19%,
+    45.59% 48.22%,
+    color-stop(0, rgba(0, 26, 63, 1)),
+    color-stop(0.4799, rgba(0, 38, 79, 1)),
+    color-stop(0.6117, rgba(0, 38, 79, 1)),
+    color-stop(0.667, rgba(16, 23, 88, 1)),
+    color-stop(0.7261, rgba(29, 11, 96, 1)),
+    color-stop(0.894, rgba(23, 7, 72, 1)),
+    color-stop(1, rgba(21, 6, 63, 1))
+  );
+  background: -o-linear-gradient(
+    165.46deg,
+    rgba(0, 26, 63, 1) 0%,
+    rgba(0, 38, 79, 1) 47.99%,
+    rgba(0, 38, 79, 1) 61.17%,
+    rgba(16, 23, 88, 1) 66.7%,
+    rgba(29, 11, 96, 1) 72.61%,
+    rgba(23, 7, 72, 1) 89.4%,
+    rgba(21, 6, 63, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    165.46deg,
+    rgba(0, 26, 63, 1) 0%,
+    rgba(0, 38, 79, 1) 47.99%,
+    rgba(0, 38, 79, 1) 61.17%,
+    rgba(16, 23, 88, 1) 66.7%,
+    rgba(29, 11, 96, 1) 72.61%,
+    rgba(23, 7, 72, 1) 89.4%,
+    rgba(21, 6, 63, 1) 100%
+  );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A3F', endColorstr='#15063F' ,GradientType=0)";
+  background: linear-gradient(
+    -75.46deg,
+    rgba(0, 26, 63, 1) 0%,
+    rgba(0, 38, 79, 1) 47.99%,
+    rgba(0, 38, 79, 1) 61.17%,
+    rgba(16, 23, 88, 1) 66.7%,
+    rgba(29, 11, 96, 1) 72.61%,
+    rgba(23, 7, 72, 1) 89.4%,
+    rgba(21, 6, 63, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A3F',endColorstr='#15063F' , GradientType=1);
+}
