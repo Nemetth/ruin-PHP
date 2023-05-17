@@ -20,7 +20,7 @@ class FooterBuilder {
         $footer .= '<h4>Suscribite a nuestro newsletter</h4>';
         $footer .= '<form action="POST" class="d-flex flex-column">';
         $footer .= '<input type="email" name="mail" id="mail" placeholder="Escribí acá tu email">';
-        $footer .= '<p class="help-block" id="statusEmail"></p>';
+        $footer .= '<p class="help-block" id="statusEmail">¡Gracias por suscribirte!</p>';
         $footer .= '<button id="botonEnviar">ENVIAR</button>';
         $footer .= '</form>';
         $footer .= '</div>';

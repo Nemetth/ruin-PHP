@@ -10,6 +10,7 @@
 :root {
   --color-black: #161616;
   --color-white: #e5e5e5;
+  --color-grey: #181616;
   --font-titles: "Cabin", sans-serif;
   --font-text: "Montserrat", sans-serif;
   --font-brand: "MuseoModerno", cursive;
@@ -120,4 +121,28 @@ h4 {
     rgba(21, 6, 63, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A3F',endColorstr='#15063F' , GradientType=1);
+}
+
+/* Estilos del catálogo */
+
+.background-perfume {
+  background-color: var(--color-grey);
+}
+.parragraph-style {
+  color: var(--color-white);
+  font-family: var(--font-text);
+}
+.titles-style {
+  color: var(--color-white);
+  font-family: var(--font-titles);
+}
+
+.detalle {
+  list-style: none;
+  color: var(--color-white);
+  font-style: none;
+  text-decoration: none;
+  font-family: var(--font-text);
+  background-color: rgba(21, 6, 63, 1);
+  padding: 5px;
 }

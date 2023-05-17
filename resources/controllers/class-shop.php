@@ -8,6 +8,7 @@ class Producto{
   public $size;
   public $ingredients;
   public $intensity;
+  public $img;
 
 
 
@@ -33,6 +34,7 @@ foreach ($jsonData as $value){
           $productos->size = $value->size;
           $productos->ingredients = $value->ingredients;
           $productos->intensity = $value->intensity;
+          $productos->img = $value->img;
           $catalogo[] = $productos;
 
 }

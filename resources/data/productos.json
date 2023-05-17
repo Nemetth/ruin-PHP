@@ -3,100 +3,99 @@
     "id": 1,
     "perfume": "Sutil",
     "price": "$200",
-    "line": "Linea S",
+    "line": "S",
     "description": "Libera la irresistible seducción de la pimienta negra y el jengibre en esta audaz creación perfumada, con toques exóticos de mandarina y ámbar acariciando tu piel",
     "size": ["50ml", "100ML"],
     "ingredients": "Agua, alcohol, aceites esenciales",
-    "intensity": "Suave"
+    "intensity": "Suave",
+    "img": "/ruin/public/view/img/catalog/perfume.png"
   },
   {
     "id": 2,
     "perfume": "Elegante",
     "price": "$300",
-    "line": "Linea S",
+    "line": "S",
     "description": "Explora la magia envolvente de la canela y la vainilla en este perfume cautivador, mientras las notas dulces de bergamota y madera de cedro se entrelazan en un abrazo sensual y misterioso",
     "size": ["50ml", "100ML"],
     "ingredients": "Agua, alcohol, aceites esenciales",
-    "intensity": "Intenso"
+    "intensity": "Intenso",
+    "img": "/ruin/public/view/img/catalog/perfume.png"
   },
   {
     "id": 3,
     "perfume": "Atrevido",
     "price": "$400",
-    "line": "Linea S",
+    "line": "S",
     "description": "Sumérgete en un remolino de frescura tropical con este perfume sorprendente, donde el coco jugoso y la piña dorada se fusionan con las notas refrescantes de menta y bambú, creando un aroma irresistible y paradisíaco",
     "size": ["50ml", "100ML"],
     "ingredients": "Agua, alcohol, aceites esenciales",
-    "intensity": "Fuerte"
-  },
-  {
-    "id": 4,
-    "perfume": "Romántico",
-    "price": "$150",
-    "line": "Linea F",
-    "description": "Embárcate en un viaje sensorial único con esta fragancia atrevida, donde el cuero oscuro y el tabaco ahumado se mezclan con un toque tentador de vainilla y chocolate, creando una experiencia olfativa intrigante y seductora",
-    "size": ["50ml", "100ML"],
-    "ingredients": "Agua, alcohol, aceites esenciales",
-    "intensity": "Suave"
+    "intensity": "Fuerte",
+    "img": "/ruin/public/view/img/catalog/perfume.png"
   },
   {
     "id": 5,
     "perfume": "Misterioso",
     "price": "$390",
-    "line": "Linea F",
+    "line": "F",
     "description": "Déjate envolver por la seducción apasionada de la rosa y el pachulí en este perfume encantador, mientras la lavanda fresca y el ámbar cálido danzan alrededor de tu piel, despertando tus sentidos con su elegancia y sofisticación",
     "size": ["50ml", "100ML"],
     "ingredients": "Agua, alcohol, aceites esenciales",
-    "intensity": "Intenso"
+    "intensity": "Intenso",
+    "img": "/ruin/public/view/img/catalog/perfume.png"
   },
   {
     "id": 6,
     "perfume": "Fresco",
     "price": "$600",
-    "line": "Linea F",
+    "line": "F",
     "description": "Experimenta la vitalidad y la frescura estimulante de la menta helada y el eucalipto en esta creación aromática, con destellos de lima y notas suaves de sándalo, creando una explosión refrescante que te revitalizará durante todo el día",
     "size": ["50ml", "100ML"],
     "ingredients": "Agua, alcohol, aceites esenciales",
-    "intensity": "Suave"
+    "intensity": "Suave",
+    "img": "/ruin/public/view/img/catalog/perfume.png"
   },
   {
     "id": 7,
     "perfume": "Dulce",
     "price": "$180",
-    "line": "Linea T",
+    "line": "F",
     "description": "Sumérgete en una sinfonía olfativa exquisita con este perfume intrigante, donde el incienso místico y la mirra se unen en armonía con la bergamota chispeante y el jazmín seductor, creando un aura de misterio y elegancia",
     "size": ["50ml", "100ML"],
     "ingredients": "Agua, alcohol, aceites esenciales",
-    "intensity": "Moderado"
+    "intensity": "Moderado",
+    "img": "/ruin/public/view/img/catalog/perfume.png"
   },
   {
     "id": 8,
     "perfume": "Vil",
     "price": "$540",
-    "line": "Linea Q",
+    "line": "Q",
     "description": "Descubre la pasión ardiente y la sensualidad en esta fragancia intensa, donde el cardamomo picante y el cuero sofisticado se entremezclan con las notas amaderadas de cedro y el dulce aroma del ámbar, dejando una estela inolvidable",
     "size": ["50ml", "100ML"],
     "ingredients": "Agua, alcohol, aceites esenciales",
-    "intensity": "Intenso"
+    "intensity": "Intenso",
+    "img": "/ruin/public/view/img/catalog/perfume.png"
   },
   {
     "id": 9,
     "perfume": "Mal",
     "price": "$210",
-    "line": "Linea Q",
+    "line": "Q",
     "description": "Despierta tus sentidos con este perfume audaz y revolucionario, donde el café oscuro y la trufa indulgente se combinan con la frescura del cilantro y las notas verdes del musgo, creando una experiencia olfativa única y adictiva",
     "size": ["50ml", "100ML"],
     "ingredients": "Agua, alcohol, aceites esenciales",
-    "intensity": "Intenso"
+    "intensity": "Intenso",
+    "img": "/ruin/public/view/img/catalog/perfume.png"
   },
   {
     "id": 10,
     "perfume": "Atroz",
     "price": "$128",
-    "line": "Linea Q",
+    "line": "Q",
     "description": "Embárcate en un viaje hacia el Oriente con esta fragancia enigmática, donde el sándalo ahumado y el ámbar dorado se funden con las notas especiadas del cardamomo y el azafrán, transportándote a un mundo de exotismo y seducción",
     "size": ["50ml", "100ML"],
     "ingredients": "Agua, alcohol, aceites esenciales",
-    "intensity": "Intenso"
+    "intensity": "Intenso",
+    "img": "/ruin/public/view/img/catalog/perfume.png"
   }
 ]
