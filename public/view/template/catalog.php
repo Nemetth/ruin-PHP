@@ -22,10 +22,10 @@ $catalogo = $producto->traer_catalogo();
 ?>
   <section class="container mt-4 mb-4">
     <div class="row">
-      <div class="col-2 ">
+      <div class="col-12 col-md-2 order-first">
         <h2 class="titles-style">Filtrar por</h2>
         <form method="POST" action="#" id="filterForm">
-          <div class="mb-3">
+          <div class="mb-3 flex-column">
             <label class="titles-style">Categoría:</label>
             <div class="form-check">
               <input class="form-check-input titles-style" type="radio" name="category" value="Q" id="Q">
@@ -42,19 +42,22 @@ $catalogo = $producto->traer_catalogo();
           </div>
 
           <button type="submit" class="btn btn-primary">Filtrar</button>
+          <a class="detalle-filtro " href="javascript:location.reload(true)">Ver todos</a>
         </form>
       </div>
-      <div class="col-10 d-flex flex-wrap gap-2 " id="productCatalog">
+      <div class="col-12 col-md-10 d-flex flex-wrap gap-2" id="productCatalog">
         <?php foreach ($catalogo as $producto) { ?>
         <div class="">
           <div class="">
-            <div class="background-perfume"><img class="card-img-top " width="200px" height="200px"
-                src="<?php echo $producto->img; ?>" alt="Card image cap"></div>
+            <div class="background-perfume">
+              <img class="card-img-top " width="200px" height="200px" src="<?php echo $producto->img; ?>"
+                alt="Card image cap">
+            </div>
             <div class="card-body">
-              <p class='parragraph-style'>Linea <?php echo $producto->line  ?></p>
+              <p class='paragraph-style'>Linea <?php echo $producto->line  ?></p>
               <div class="d-flex">
-                <h5 class="card-title parragraph-style pb-1"><?php echo $producto->perfume; ?></h5>
-                <p class='parragraph-style ms-5'><?php echo $producto ->price ?></p>
+                <h5 class="card-title paragraph-style pb-1"><?php echo $producto->perfume; ?></h5>
+                <p class='paragraph-style ms-5'><?php echo $producto ->price ?></p>
               </div>
               <?php  echo "<a class='detalle' href='product.php?id=" . $producto->getId() . "'> VER DETALLE</a>";?>
             </div>

@@ -40,3 +40,31 @@ echo $footer
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
   integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous">
 </script>
+<script>
+$(document).ready(function() {
+  $("#newsletterForm").submit(function(event) {
+    event.preventDefault();
+
+    // Obtener el valor del campo de correo electrónico
+    var mail = $('#mail').val();
+
+    // Verificar si el campo está vacío
+    if (mail === '') {
+      alert('Por favor, completa tu dirección de correo electrónico');
+      return;
+    }
+
+    // Validar el formato del correo electrónico utilizando una expresión regular
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(mail)) {
+      alert('Por favor, ingresa una dirección de correo electrónico válida');
+      return;
+    }
+
+    // Si el campo es válido, puedes enviar el formulario de newsletter
+    // Agrega tu código para enviar el formulario al servidor
+
+    alert('Formulario de newsletter enviado correctamente');
+  });
+});
+</script>

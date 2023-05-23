@@ -10,8 +10,6 @@ class Producto{
   public $intensity;
   public $img;
 
-
-
 public function getId() {
         return $this->id;
     }

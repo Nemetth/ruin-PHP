@@ -6,13 +6,12 @@ $currentUrl = $_SERVER['REQUEST_URI'];
 // Define una variable para almacenar la URL base por defecto
 $baseURL = '';
 
-// Condiciona la URL base según la página actual
 if (strpos($currentUrl, 'index.php') !== false) {
     $baseURL = 'public/view/assets/css/styles.css';
 } else {
     $baseURL = 'http://localhost/ruin/public/view/assets/styles.css';
 }
-// Define la constante BASE_URL con el valor condicionado
+
 define('BASE_URL', $baseURL);
 
 ?>

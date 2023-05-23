@@ -12,15 +12,14 @@ class FooterBuilder {
         }
         $footer .= '</ul>';
         $footer .= '</div>';
-        $footer .= '<div class="col-lg-4 text-center">';
+        $footer .= '<div class="col-lg-4 d-none d-lg-block text-center">'; 
         $footer .= '<img src="' . BASE_LOGO_FOOTER . '" alt="Ruin">';
         $footer .= '</div>';
         $footer .= '<div class="col-lg-4">';
-        $footer .= '<div class="d-flex flex-column">';
+        $footer .= '<div class="d-flex flex-column d-none d-lg-block">'; 
         $footer .= '<h4>Suscribite a nuestro newsletter</h4>';
-        $footer .= '<form action="POST" class="d-flex flex-column">';
+        $footer .= '<form method="POST" class="d-flex flex-column" id="newsletterForm"> ';
         $footer .= '<input type="email" name="mail" id="mail" placeholder="Escribí acá tu email">';
-        $footer .= '<p class="help-block" id="statusEmail">¡Gracias por suscribirte!</p>';
         $footer .= '<button id="botonEnviar">ENVIAR</button>';
         $footer .= '</form>';
         $footer .= '</div>';
