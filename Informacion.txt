@@ -1,0 +1,3 @@
+Este trabajo fue realizado para la práctica de PHP y jQuery. El maquetado es netamente funcional. 
+Los criterios de diseño y responsividad obedecen puramente a ese motivo, por una cuestión de
+tiempo entre entregas
